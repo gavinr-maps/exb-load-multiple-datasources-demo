@@ -1,0 +1,22 @@
+{
+  "name": "add-layers-from-group-id",
+  "label": "Add Layers from Group ID",
+  "type": "widget",
+  "version": "1.18.0",
+  "exbVersion": "1.18.0",
+  "dependency": [
+    "jimu-arcgis"
+  ],
+  "author": "",
+  "description": "",
+  "copyright": "",
+  "license": "",
+  "properties": {},
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 800,
+    "height": 500
+  }
+}
