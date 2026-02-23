@@ -1,0 +1,28 @@
+{
+  "environment": "DEV",
+  "read": {
+    "urlRegex": "USA/MapServer",
+    "layers": {
+      "cities": {
+        "layerId": 0
+      },
+      "highways": {
+        "layerId": 1
+      },
+      "states": {
+        "layerId": 2
+      },
+      "counties": {
+        "layerId": 3
+      }
+    }
+  },
+  "write": {
+    "urlRegex": "SF311/FeatureServer",
+    "layers": {
+      "incidents": {
+        "layerId": 0
+      }
+    }
+  }
+}
