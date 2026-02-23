@@ -83,9 +83,7 @@ const Widget = (props: AllWidgetProps<IMConfig>) => {
       })) {
         const item = items.find(({ url }) => new RegExp(urlRegex).test(url))
         if (!item) {
-          throw new Error(
-            // translate('groups_error_message_missing_item', { name: key }),
-          )
+          console.log('could not find item ', url, 'for ', urlRegex)
         }
 
         // create layers from item
