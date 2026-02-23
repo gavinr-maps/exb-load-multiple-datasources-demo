@@ -83,7 +83,7 @@ const Widget = (props: AllWidgetProps<IMConfig>) => {
       })) {
         const item = items.find(({ url }) => new RegExp(urlRegex).test(url))
         if (!item) {
-          console.log('could not find item ', item.url, 'for ', urlRegex)
+          console.log('could not find regex ', urlRegex, 'in ', items)
         }
 
         // create layers from item
